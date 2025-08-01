@@ -1,0 +1,26 @@
+* {
+	color: white;
+	background-color: black;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.nav-item {
+	padding: 2px;
+}
+
+.nav-item:hover {
+  background-color: yellow;
+  font-size: 18px;
+  color: black;
+}
+
+a {
+	text-decoration: none;
+}
