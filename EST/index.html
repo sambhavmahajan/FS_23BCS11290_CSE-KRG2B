@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+
+        button {
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/lol">
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
